@@ -1,0 +1,19 @@
+{
+  "managedApiConnections": {},
+  "serviceProviderConnections": {
+    "AzureBlob": {
+      "parameterValues": {
+        "managedIdentityType": "SystemAssigned",
+        "blobStorageEndpoint": "@appsetting('AzureBlob_blobStorageEndpoint')",
+        "authProvider": {
+          "Type": "ManagedServiceIdentity"
+        }
+      },
+      "parameterSetName": "ManagedServiceIdentity",
+      "serviceProvider": {
+        "id": "/serviceProviders/AzureBlob"
+      },
+      "displayName": "new_conn_dae8b"
+    }
+  }
+}
