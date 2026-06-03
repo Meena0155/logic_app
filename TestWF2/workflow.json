@@ -8,7 +8,7 @@
             "Recurrence": {
                 "type": "Recurrence",
                 "recurrence": {
-                    "interval": 5,
+                    "interval": 6,
                     "frequency": "Month"
                 }
             }
